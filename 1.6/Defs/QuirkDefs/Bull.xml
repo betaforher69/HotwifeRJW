@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RJWQuirks.QuirkDef>
+    <defName>Bull</defName>
+    <label>Bull</label>
+    <description>{pawn} can cheat on their lovers without causing jealousy or any other infidelity reactions in them.</description>
+    <ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
+    <requires Class="RJWQuirks.Requirement.LogicalNot">
+      <requirement Class="RJWQuirks.Requirement.IsAnimal" />
+    </requires>
+  </RJWQuirks.QuirkDef>
+</Defs>

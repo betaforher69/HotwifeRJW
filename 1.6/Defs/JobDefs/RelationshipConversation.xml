@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>RCQ_RelationshipConversation</defName>
+    <driverClass>HotwifeRJW.Relationships.JobDriver_RelationshipConversation</driverClass>
+    <reportString>discusses relationships with TargetA</reportString>
+    <casualInterruptible>true</casualInterruptible>
+  </JobDef>
+  <JobDef>
+    <defName>FWQ_FamilyCheckIn</defName>
+    <driverClass>FamilyWitnessQuirks.JobDriver_FamilyCheckIn</driverClass>
+    <reportString>approaches to talk with a relative.</reportString>
+    <casualInterruptible>true</casualInterruptible>
+  </JobDef>
+</Defs>

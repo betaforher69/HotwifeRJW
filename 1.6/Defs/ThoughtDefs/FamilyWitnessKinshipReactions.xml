@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <!-- ========================================== -->
+  <!-- ABSTRACTS: родители для куни-дефов         -->
+  <!-- Name (не defName) + Abstract="True"        -->
+  <!-- ========================================== -->
+  <ThoughtDef Name="FWQ_PosMood" Abstract="True">
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>3</durationDays>
+    <stackLimit>1</stackLimit>
+  </ThoughtDef>
+  <ThoughtDef Name="FWQ_PosOpinion" Abstract="True">
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>5</durationDays>
+    <stackLimit>1</stackLimit>
+  </ThoughtDef>
+  <ThoughtDef Name="FWQ_NegMood" Abstract="True">
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>2</durationDays>
+    <stackLimit>1</stackLimit>
+  </ThoughtDef>
+
+  <!-- ========================================== -->
+  <!-- FAMILY ENCOUNTER / WITNESS (без ParentName)-->
+  <!-- ========================================== -->
+<ThoughtDef>
+    <defName>FWQ_FamilyEncounterMood_Mother</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>3</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>My son. I know it hurts you. But you're still my boy</label>
+        <description>My sweet son. He caught me. I spread my legs wider. Love you</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>FWQ_UpsetWitnessMood_Mother</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>3</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>This is my mother. And another man is fucking her. And she likes it</label>
+        <description>I caught my mother. And now I can't look her in the eye.</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>FWQ_RelativeOpinion_Mother</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>5</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>My poor son saw me getting fucked</label>
+        <baseOpinionOffset>30</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>FWQ_PartnerOpinion_Mother</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>5</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>My stud, whom my son doesn't dare interfere with</label>
+        <baseOpinionOffset>30</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>FWQ_WitnessPartnerOpinion_Mother</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>5</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>The one who fucked my mother</label>
+        <baseOpinionOffset>-30</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>FWQ_FamilyEncounterMood_Sister</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>3</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>Big brother was watching. I stuck my tongue out at him</label>
+        <description>Big brother watched me getting fucked. I winked at him and continued</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>FWQ_UpsetWitnessMood_Sister</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>3</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>Saw my sister getting fucked. She smiled at me</label>
+        <description>I saw my sister getting fucked. And I did nothing.</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>FWQ_RelativeOpinion_Sister</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>5</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>My poor big brother saw me getting fucked</label>
+        <baseOpinionOffset>30</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>FWQ_PartnerOpinion_Sister</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>5</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>Fucked me in front of my brother</label>
+        <baseOpinionOffset>30</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>FWQ_WitnessPartnerOpinion_Sister</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>5</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>The one who fucked my sister</label>
+        <baseOpinionOffset>-30</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>FWQ_FamilyEncounterMood_Aunt</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>3</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>My little nephew. He watched his beloved aunt get filled.</label>
+        <description>My sweet nephew watched, and I came on another man's cock. And I felt good.</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>FWQ_UpsetWitnessMood_Aunt</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>3</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>Saw my aunt with another man</label>
+        <description>I saw my aunt getting fucked. I can't forget her eyes.</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>FWQ_RelativeOpinion_Aunt</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>5</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>My nephew became a witness. He loved his aunt so much. Poor thing</label>
+        <baseOpinionOffset>30</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>FWQ_PartnerOpinion_Aunt</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>5</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>Fucked me in front of my nephew</label>
+        <baseOpinionOffset>30</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>FWQ_WitnessPartnerOpinion_Aunt</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>5</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>The one who fucked my aunt</label>
+        <baseOpinionOffset>-30</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- ========================================== -->
+  <!-- CUNNILINGUS AFTER SCENE (MOTHER)           -->
+  <!-- ========================================== -->
+  <ThoughtDef ParentName="FWQ_PosMood">
+    <defName>FWQ_CunnilingusReceivedMood_Mother</defName>
+    <stages>
+      <li>
+        <label>My son licked me clean after another man's cock</label>
+        <description>My poor boy. He tries so hard for me. Licked up his cum. Gently. Obediently. I'm pleased.</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef ParentName="FWQ_PosOpinion">
+    <defName>FWQ_CunnilingusReceivedOpinion_Mother</defName>
+    <stages>
+      <li>
+        <label>My son. He tries so hard. Licked me clean after another</label>
+        <baseOpinionOffset>25</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef ParentName="FWQ_NegMood">
+    <defName>FWQ_CunnilingusGivenMood_Mother</defName>
+    <stages>
+      <li>
+        <label>Bittersweet intimacy. I licked mommy clean after another man's cock</label>
+        <description>I'm glad I made her happy. But the situation still stings a little.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef ParentName="FWQ_PosOpinion">
+    <defName>FWQ_CunnilingusGivenOpinion_Mother</defName>
+    <stages>
+      <li>
+        <label>I'd do anything for her smile. Even lick mommy clean after his cock</label>
+        <baseOpinionOffset>15</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- ========================================== -->
+  <!-- CUNNILINGUS AFTER SCENE (SISTER)           -->
+  <!-- ========================================== -->
+  <ThoughtDef ParentName="FWQ_PosMood">
+    <defName>FWQ_CunnilingusReceivedMood_Sister</defName>
+    <stages>
+      <li>
+        <label>Big brother licked me clean after another man's cock</label>
+        <description>My sweet big brother. He saw everything, then crawled over and licked me clean. Along with his cum. Gently. Obediently. I'm pleased.</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef ParentName="FWQ_PosOpinion">
+    <defName>FWQ_CunnilingusReceivedOpinion_Sister</defName>
+    <stages>
+      <li>
+        <label>Big brother. He tries so hard for me</label>
+        <baseOpinionOffset>25</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef ParentName="FWQ_NegMood">
+    <defName>FWQ_CunnilingusGivenMood_Sister</defName>
+    <stages>
+      <li>
+        <label>Bittersweet intimacy. I licked my sister clean after another</label>
+        <description>I know she was with him. But now she's with me. And I feel good, even if it stings.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef ParentName="FWQ_PosOpinion">
+    <defName>FWQ_CunnilingusGivenOpinion_Sister</defName>
+    <stages>
+      <li>
+        <label>I'd do anything for her smile. Even lick my little sister clean after his cock</label>
+        <baseOpinionOffset>15</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- ========================================== -->
+  <!-- CUNNILINGUS AFTER SCENE (AUNT)             -->
+  <!-- ========================================== -->
+  <ThoughtDef ParentName="FWQ_PosMood">
+    <defName>FWQ_CunnilingusReceivedMood_Aunt</defName>
+    <stages>
+      <li>
+        <label>My nephew licked me clean after another man's cock</label>
+        <description>My poor nephew. You loved your aunt so much. And now you've licked me clean after another. Gently. Obediently. I'm pleased.</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef ParentName="FWQ_PosOpinion">
+    <defName>FWQ_CunnilingusReceivedOpinion_Aunt</defName>
+    <stages>
+      <li>
+        <label>My nephew. He tries so hard for me</label>
+        <baseOpinionOffset>25</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef ParentName="FWQ_NegMood">
+    <defName>FWQ_CunnilingusGivenMood_Aunt</defName>
+    <stages>
+      <li>
+        <label>Bittersweet intimacy. I licked my aunt clean after another man's cock</label>
+        <description>I know who was inside her. But now I'm licking up his cum. And I feel good. Despite everything.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef ParentName="FWQ_PosOpinion">
+    <defName>FWQ_CunnilingusGivenOpinion_Aunt</defName>
+    <stages>
+      <li>
+        <label>I'd do anything for her smile. Even lick my aunt clean after his cock</label>
+        <baseOpinionOffset>15</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- ========================================== -->
+  <!-- Mutual thoughts of witness and partner     -->
+  <!-- ========================================== -->
+  <ThoughtDef><defName>FWQ_CaughtWitnessToPartner</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>20</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>He humiliated my family</label><baseOpinionOffset>-35</baseOpinionOffset></li></stages></ThoughtDef>
+  <ThoughtDef><defName>FWQ_CaughtPartnerToWitness</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>20</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>He had to see it</label><baseOpinionOffset>20</baseOpinionOffset></li></stages></ThoughtDef>
+
+  <!-- ========================================== -->
+  <!-- PREGNANCY / BIRTH (family)                 -->
+  <!-- ========================================== -->
+  <ThoughtDef><defName>FWQ_PregnancyWomanMood</defName><thoughtClass>Thought_Memory</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>Pregnant by another man</label><baseMoodEffect>25</baseMoodEffect></li></stages></ThoughtDef>
+  <ThoughtDef><defName>FWQ_PregnancyFatherMood</defName><thoughtClass>Thought_Memory</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>She's carrying my child</label><baseMoodEffect>20</baseMoodEffect></li></stages></ThoughtDef>
+  <ThoughtDef><defName>FWQ_PregnancyWitnessMood</defName><thoughtClass>Thought_Memory</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>Heavy family news</label><baseMoodEffect>-25</baseMoodEffect></li></stages></ThoughtDef>
+  <ThoughtDef><defName>FWQ_PregnancyWomanToFather</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>Father of the unborn child</label><baseOpinionOffset>30</baseOpinionOffset></li></stages></ThoughtDef>
+  <ThoughtDef><defName>FWQ_PregnancyWomanToWitness</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>He remains my family</label><baseOpinionOffset>20</baseOpinionOffset></li></stages></ThoughtDef>
+  <ThoughtDef><defName>FWQ_PregnancyFatherToWoman</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>Mother of my unborn child</label><baseOpinionOffset>35</baseOpinionOffset></li></stages></ThoughtDef>
+  <ThoughtDef><defName>FWQ_PregnancyFatherToWitness</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>The loser from her family</label><baseOpinionOffset>-25</baseOpinionOffset></li></stages></ThoughtDef>
+  <ThoughtDef><defName>FWQ_PregnancyWitnessToWoman</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>She hid this side of life from me</label><baseOpinionOffset>-30</baseOpinionOffset></li></stages></ThoughtDef>
+  <ThoughtDef><defName>FWQ_PregnancyWitnessToFather</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>Because of him there's discord in our family</label><baseOpinionOffset>-40</baseOpinionOffset></li></stages></ThoughtDef>
+
+  <ThoughtDef><defName>FWQ_BirthWomanMood</defName><thoughtClass>Thought_Memory</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>Gave birth to another man's child</label><baseMoodEffect>35</baseMoodEffect></li></stages></ThoughtDef>
+  <ThoughtDef><defName>FWQ_BirthFatherMood</defName><thoughtClass>Thought_Memory</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>My child was born</label><baseMoodEffect>30</baseMoodEffect></li></stages></ThoughtDef>
+  <ThoughtDef><defName>FWQ_BirthWitnessMood</defName><thoughtClass>Thought_Memory</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>The birth of the child intensified the family conflict</label><baseMoodEffect>-35</baseMoodEffect></li></stages></ThoughtDef>
+  <ThoughtDef><defName>FWQ_BirthWomanToFather</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>Father of my child</label><baseOpinionOffset>40</baseOpinionOffset></li></stages></ThoughtDef>
+  <ThoughtDef><defName>FWQ_BirthWomanToWitness</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>He still matters to me</label><baseOpinionOffset>25</baseOpinionOffset></li></stages></ThoughtDef>
+  <ThoughtDef><defName>FWQ_BirthFatherToWoman</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>She gave birth to my child</label><baseOpinionOffset>40</baseOpinionOffset></li></stages></ThoughtDef>
+  <ThoughtDef><defName>FWQ_BirthFatherToWitness</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>He's unhappy about my child's birth</label><baseOpinionOffset>-30</baseOpinionOffset></li></stages></ThoughtDef>
+  <ThoughtDef><defName>FWQ_BirthWitnessToWoman</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>The birth of the child drove us apart</label><baseOpinionOffset>-35</baseOpinionOffset></li></stages></ThoughtDef>
+  <ThoughtDef><defName>FWQ_BirthWitnessToFather</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>He caused the family quarrel</label><baseOpinionOffset>-45</baseOpinionOffset></li></stages></ThoughtDef>
+</Defs>
