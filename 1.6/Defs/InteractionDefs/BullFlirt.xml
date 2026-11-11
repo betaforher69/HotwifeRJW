@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <InteractionDef>
+    <defName>HW_BullFlirt</defName>
+    <label>flirt</label>
+    <symbol>Things/Mote/SpeechSymbols/Romance</symbol>
+    <interactionMote>Mote_Speech</interactionMote>
+    <workerClass>HotwifeRJW.Relationships.InteractionWorker_BullFlirt</workerClass>
+    <initiatorXpGainSkill>Social</initiatorXpGainSkill>
+    <initiatorXpGainAmount>3</initiatorXpGainAmount>
+    <logRulesInitiator><rulesStrings>
+      <li>r_logentry-&gt;[INITIATOR_nameDef] flirts with [RECIPIENT_nameDef].</li>
+      <li>r_logentry-&gt;[INITIATOR_nameDef] tries to impress [RECIPIENT_nameDef].</li>
+    </rulesStrings></logRulesInitiator>
+    <logRulesRecipient><rulesStrings>
+      <li>r_logentry-&gt;[RECIPIENT_nameDef] considers [INITIATOR_nameDef]'s attention.</li>
+    </rulesStrings></logRulesRecipient>
+  </InteractionDef>
+</Defs>

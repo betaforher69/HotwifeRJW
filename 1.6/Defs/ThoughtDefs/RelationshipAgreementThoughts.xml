@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThoughtDef>
+    <defName>RCQ_AgreementAccepted</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>3</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>We managed to come to an agreement</label><description>We openly discussed our relationship and reached a mutual understanding.</description><baseMoodEffect>5</baseMoodEffect></li></stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>RCQ_AgreementRejected</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>2</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>My proposal was rejected</label><description>The conversation about our relationship didn't go the way I hoped.</description><baseMoodEffect>-4</baseMoodEffect></li></stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>RCQ_AgreementTrust</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>6</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>We talked openly</label><baseOpinionOffset>6</baseOpinionOffset></li></stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>RCQ_RejectionOpinion</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>3</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>We didn't see eye to eye</label><baseOpinionOffset>-3</baseOpinionOffset></li></stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>RCQ_ConsensualFreedom</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>1</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>Our agreements are working</label><description>My personal freedom is consistent with our relationship.</description><baseMoodEffect>4</baseMoodEffect></li></stages>
+  </ThoughtDef>
+  <ThoughtDef><defName>RCQ_WitnessedBetrayal</defName><thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>4</durationDays><stackLimit>1</stackLimit><stages><li><label>Witnessed betrayal</label><baseMoodEffect>-12</baseMoodEffect></li></stages></ThoughtDef>
+  <ThoughtDef><defName>RCQ_BetrayalOpinion</defName><thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>10</durationDays><stackLimit>1</stackLimit><stages><li><label>Broke trust</label><baseOpinionOffset>-15</baseOpinionOffset></li></stages></ThoughtDef>
+  <ThoughtDef><defName>RCQ_ApprovedWitness</defName><thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>2</durationDays><stackLimit>1</stackLimit><stages><li><label>Agreements are being upheld</label><baseMoodEffect>3</baseMoodEffect></li></stages></ThoughtDef>
+</Defs>

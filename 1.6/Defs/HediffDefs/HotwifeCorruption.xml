@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef>
+    <defName>HW_Corruption</defName>
+    <label>corruption</label>
+    <description>Tracks a HotWife's changing preferences. Reaching maximum progress unlocks relationship acceptance discussions.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <stages>
+      <li><minSeverity>0</minSeverity><label>unsatisfied</label></li>
+      <li><minSeverity>0.15</minSeverity><label>curious</label></li>
+      <li><minSeverity>0.30</minSeverity><label>tempted</label></li>
+      <li><minSeverity>0.45</minSeverity><label>testing</label></li>
+      <li><minSeverity>0.60</minSeverity><label>fallen</label></li>
+      <li><minSeverity>0.75</minSeverity><label>unfaithful</label></li>
+      <li><minSeverity>0.90</minSeverity><label>corrupted</label></li>
+    </stages>
+  </HediffDef>
+</Defs>

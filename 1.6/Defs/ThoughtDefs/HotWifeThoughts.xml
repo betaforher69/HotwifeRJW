@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ========================================== -->
+  <!-- ORIGINAL HOTWIFE THOUGHTS (PRESERVED)      -->
+  <!-- ========================================== -->
+  <ThoughtDef>
+    <defName>HW_CaughtCheatingMood</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>20</durationDays>
+    <stackLimit>2</stackLimit>
+    <stages><li>
+      <label>thrill of being caught</label>
+      <description>He caught me on another man's cock, and I came louder. I know he'll forgive me</description>
+      <baseMoodEffect>60</baseMoodEffect>
+    </li></stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>HW_BetrayedPartnerOpinion</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>30</durationDays>
+    <stackLimit>5</stackLimit>
+    <stages><li>
+      <label>My poor, foolish boy</label>
+      <baseOpinionOffset>30</baseOpinionOffset>
+    </li></stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>HW_AffairPartnerOpinion</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>5</durationDays>
+    <stackLimit>2</stackLimit>
+    <stages><li>
+      <label>He fucks better</label>
+      <baseOpinionOffset>30</baseOpinionOffset>
+    </li></stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>HW_CunnilingusReceivedMood</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>3</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages><li>
+      <label>I was pampered so gently</label>
+      <description>My sweet boy. He licked me clean after another man's cock and cum</description>
+      <baseMoodEffect>18</baseMoodEffect>
+    </li></stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>HW_CunnilingusReceivedOpinion</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>7</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages><li>
+      <label>He tries so hard. Licked me clean after another. Licked it all up</label>
+      <baseOpinionOffset>20</baseOpinionOffset>
+    </li></stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>HW_CunnilingusGivenMood</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>2</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages><li>
+      <label>Bittersweet intimacy. I know she was with him. But now she's with me</label>
+      <description>I'm glad I made her happy. But the situation still stings a little</description>
+      <baseMoodEffect>-4</baseMoodEffect>
+    </li></stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>HW_CunnilingusGivenOpinion</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>5</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages><li>
+      <label>I'd do anything for her smile. Even if it hurts me</label>
+      <baseOpinionOffset>10</baseOpinionOffset>
+    </li></stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>HW_CaughtRivalOpinion</defName><thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>20</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>That bastard fucked my love</label><baseOpinionOffset>-35</baseOpinionOffset></li></stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>HW_CaughtHusbandOpinion</defName><thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>20</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>I fucked that loser's woman</label><baseOpinionOffset>-20</baseOpinionOffset></li></stages>
+  </ThoughtDef>
+
+  <!-- ========================================== -->
+  <!-- PREGNANCY (PRESERVED)                      -->
+  <!-- ========================================== -->
+  <ThoughtDef><defName>HW_PregnancyWifeMood</defName><thoughtClass>Thought_Memory</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>Pregnant not by my husband</label><description>I'm carrying another man's child, and I love it.</description><baseMoodEffect>25</baseMoodEffect></li></stages></ThoughtDef>
+  <ThoughtDef><defName>HW_PregnancyFatherMood</defName><thoughtClass>Thought_Memory</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>Another man's woman got pregnant by me</label><baseMoodEffect>20</baseMoodEffect></li></stages></ThoughtDef>
+  <ThoughtDef><defName>HW_PregnancyHusbandMood</defName><thoughtClass>Thought_Memory</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>My love is pregnant by another</label><baseMoodEffect>-25</baseMoodEffect></li></stages></ThoughtDef>
+  <ThoughtDef><defName>HW_PregnancyWifeToHusband</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>He's still my favorite</label><baseOpinionOffset>20</baseOpinionOffset></li></stages></ThoughtDef>
+  <ThoughtDef><defName>HW_PregnancyWifeToFather</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>He made me pregnant</label><baseOpinionOffset>30</baseOpinionOffset></li></stages></ThoughtDef>
+  <ThoughtDef><defName>HW_PregnancyHusbandToWife</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>She's carrying another man's child</label><baseOpinionOffset>-30</baseOpinionOffset></li></stages></ThoughtDef>
+  <ThoughtDef><defName>HW_PregnancyHusbandToFather</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>He made my love pregnant</label><baseOpinionOffset>-40</baseOpinionOffset></li></stages></ThoughtDef>
+  <ThoughtDef><defName>HW_PregnancyFatherToWife</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>She's carrying my child</label><baseOpinionOffset>35</baseOpinionOffset></li></stages></ThoughtDef>
+  <ThoughtDef><defName>HW_PregnancyFatherToHusband</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>He's a loser and a failure</label><baseOpinionOffset>-25</baseOpinionOffset></li></stages></ThoughtDef>
+
+  <!-- ========================================== -->
+  <!-- BIRTH (PRESERVED)                          -->
+  <!-- ========================================== -->
+  <ThoughtDef><defName>HW_BirthWifeMood</defName><thoughtClass>Thought_Memory</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>Gave birth to a child not by my husband</label><baseMoodEffect>35</baseMoodEffect></li></stages></ThoughtDef>
+  <ThoughtDef><defName>HW_BirthFatherMood</defName><thoughtClass>Thought_Memory</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>Another man's woman gave birth to my child</label><baseMoodEffect>30</baseMoodEffect></li></stages></ThoughtDef>
+  <ThoughtDef><defName>HW_BirthHusbandMood</defName><thoughtClass>Thought_Memory</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>My love gave birth to another's child</label><baseMoodEffect>-35</baseMoodEffect></li></stages></ThoughtDef>
+  <ThoughtDef><defName>HW_BirthWifeToHusband</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>He stayed by my side</label><baseOpinionOffset>25</baseOpinionOffset></li></stages></ThoughtDef>
+  <ThoughtDef><defName>HW_BirthWifeToFather</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>The father of my child</label><baseOpinionOffset>40</baseOpinionOffset></li></stages></ThoughtDef>
+  <ThoughtDef><defName>HW_BirthHusbandToWife</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>She gave birth to another's child</label><baseOpinionOffset>-35</baseOpinionOffset></li></stages></ThoughtDef>
+  <ThoughtDef><defName>HW_BirthHusbandToFather</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>He's the father of my love's child</label><baseOpinionOffset>-45</baseOpinionOffset></li></stages></ThoughtDef>
+  <ThoughtDef><defName>HW_BirthFatherToWife</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>She gave birth to my child</label><baseOpinionOffset>40</baseOpinionOffset></li></stages></ThoughtDef>
+  <ThoughtDef><defName>HW_BirthFatherToHusband</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>30</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>He's raising my child</label><baseOpinionOffset>-30</baseOpinionOffset></li></stages></ThoughtDef>
+
+  <!-- Mutual thoughts of witness and partner -->
+  <ThoughtDef><defName>HW_CaughtWitnessToPartner</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>20</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>He humiliated my family</label><baseOpinionOffset>-35</baseOpinionOffset></li></stages></ThoughtDef>
+  <ThoughtDef><defName>HW_CaughtPartnerToWitness</defName><thoughtClass>Thought_MemorySocial</thoughtClass><durationDays>20</durationDays><stackLimit>1</stackLimit>
+    <stages><li><label>He had to see it</label><baseOpinionOffset>20</baseOpinionOffset></li></stages></ThoughtDef>
+</Defs>

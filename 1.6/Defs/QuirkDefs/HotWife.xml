@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RJWQuirks.QuirkDef>
+    <defName>HotWife</defName>
+    <label>Hot Wife</label>
+    <description>{pawn} likes being caught</description>
+    <ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
+    <requires Class="RJWQuirks.Requirement.LogicalNot">
+      <requirement Class="RJWQuirks.Requirement.IsAnimal" />
+    </requires>
+  </RJWQuirks.QuirkDef>
+</Defs>
