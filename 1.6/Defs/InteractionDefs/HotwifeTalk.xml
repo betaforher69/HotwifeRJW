@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <Defs>
   <InteractionDef>
     <defName>RCQ_HotwifeTalk</defName>
@@ -10,11 +10,26 @@
     <initiatorXpGainAmount>4</initiatorXpGainAmount>
     <logRulesInitiator>
       <rulesStrings>
-        <li>r_logentry-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] discuss freedom and trust in relationships.</li>
-        <li>r_logentry-&gt;[INITIATOR_nameDef] starts a conversation with [RECIPIENT_nameDef] about hotwifing.</li>
-        <li>r_logentry-&gt;[INITIATOR_nameDef] asks [RECIPIENT_nameDef] about open relationships.</li>
-        <li>r_logentry-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] discuss unusual romantic arrangements.</li>
-        <li>r_logentry-&gt;[INITIATOR_nameDef] shares thoughts about cuckolding with [RECIPIENT_nameDef].</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] asks [RECIPIENT_nameDef] what trust means when a couple explores new boundaries.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] cautiously brings up the idea of a hotwife arrangement with [RECIPIENT_nameDef].</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] asks [RECIPIENT_nameDef] whether curiosity and commitment can coexist.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] tells [RECIPIENT_nameDef] about a fantasy she has been nervous to share.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] sits beside [RECIPIENT_nameDef] and asks how he feels about jealousy.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] reassures [RECIPIENT_nameDef] that honesty would come before any new experience.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] jokingly asks [RECIPIENT_nameDef] whether he would ever enjoy watching her flirt.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] asks [RECIPIENT_nameDef] what boundaries would make an open arrangement feel safe.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] suggests that [RECIPIENT_nameDef] think about the difference between love and exclusivity.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] gently squeezes [RECIPIENT_nameDef]'s hand while discussing an unusual relationship idea.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] admits to [RECIPIENT_nameDef] that the thought of being desired by others excites her.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] invites [RECIPIENT_nameDef] to share his own fantasies without embarrassment.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] asks [RECIPIENT_nameDef] whether seeing her receive attention might feel exciting rather than threatening.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] explains to [RECIPIENT_nameDef] why clear rules matter in a hotwife relationship.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] teases [RECIPIENT_nameDef] about blushing whenever she mentions another admirer.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] asks [RECIPIENT_nameDef] to imagine a relationship built on trust and negotiated freedom.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] tells [RECIPIENT_nameDef] that she would never want to cross his boundaries without talking first.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] brings up cuckolding with [RECIPIENT_nameDef] and listens carefully to his concerns.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] shares a playful hypothetical with [RECIPIENT_nameDef] about an admirer at the colony.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] asks [RECIPIENT_nameDef] if they could revisit the subject of a hotwife arrangement someday.</li>
       </rulesStrings>
     </logRulesInitiator>
     <logRulesRecipient>

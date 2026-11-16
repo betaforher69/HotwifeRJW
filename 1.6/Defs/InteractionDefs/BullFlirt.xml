@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <Defs>
   <InteractionDef>
     <defName>HW_BullFlirt</defName>
@@ -8,12 +8,34 @@
     <workerClass>HotwifeRJW.Relationships.InteractionWorker_BullFlirt</workerClass>
     <initiatorXpGainSkill>Social</initiatorXpGainSkill>
     <initiatorXpGainAmount>3</initiatorXpGainAmount>
-    <logRulesInitiator><rulesStrings>
-      <li>r_logentry-&gt;[INITIATOR_nameDef] flirts with [RECIPIENT_nameDef].</li>
-      <li>r_logentry-&gt;[INITIATOR_nameDef] tries to impress [RECIPIENT_nameDef].</li>
-    </rulesStrings></logRulesInitiator>
-    <logRulesRecipient><rulesStrings>
-      <li>r_logentry-&gt;[RECIPIENT_nameDef] considers [INITIATOR_nameDef]'s attention.</li>
-    </rulesStrings></logRulesRecipient>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] gives [RECIPIENT_nameDef] a playful wink across the room.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] compliments [RECIPIENT_nameDef]'s smile and waits for her reaction.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] leans closer to [RECIPIENT_nameDef] and shares a private joke.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] brushes a speck of dust from [RECIPIENT_nameDef]'s shoulder.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] offers [RECIPIENT_nameDef] a charming compliment.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] gives [RECIPIENT_nameDef] a lingering, mischievous look.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] challenges [RECIPIENT_nameDef] to a playful game of teasing.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] gently takes [RECIPIENT_nameDef]'s hand while talking.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] tells [RECIPIENT_nameDef] she deserves more excitement in her life.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] lowers his voice and tells [RECIPIENT_nameDef] how captivating she looks.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] shares an outrageous joke with [RECIPIENT_nameDef] and makes her laugh.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] lightly nudges [RECIPIENT_nameDef] with his shoulder and grins.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] invites [RECIPIENT_nameDef] to spend a little time together.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] playfully asks [RECIPIENT_nameDef] whether she is always this charming.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] flashes [RECIPIENT_nameDef] a confident smile.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] gently tucks a stray lock of hair behind [RECIPIENT_nameDef]'s ear.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] remarks that [RECIPIENT_nameDef] has been on his mind lately.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] makes an exaggerated bow and offers [RECIPIENT_nameDef] his arm.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] gives [RECIPIENT_nameDef] a playful pat on the backside, then watches for her reaction.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] asks [RECIPIENT_nameDef] if she would like to keep their conversation private.</li>
+      </rulesStrings>
+    </logRulesInitiator>
+    <logRulesRecipient>
+      <rulesStrings>
+        <li>r_logentry-&gt;[RECIPIENT_nameDef] considers [INITIATOR_nameDef]'s attention.</li>
+      </rulesStrings>
+    </logRulesRecipient>
   </InteractionDef>
 </Defs>
