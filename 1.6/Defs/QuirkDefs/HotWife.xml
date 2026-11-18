@@ -3,7 +3,7 @@
   <RJWQuirks.QuirkDef>
     <defName>HotWife</defName>
     <label>Hot Wife</label>
-    <description>{pawn} likes being caught</description>
+    <description>{pawn} experiences pleasure rather than guilt from unconventional intimate relationships</description>
     <ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
     <requires Class="RJWQuirks.Requirement.LogicalNot">
       <requirement Class="RJWQuirks.Requirement.IsAnimal" />

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThoughtDef><defName>HW_HotwifeGuilt</defName><thoughtClass>Thought_Memory</thoughtClass><durationDays>2</durationDays><stackLimit>1</stackLimit><stages><li><label>Unfaithful</label><description>I was intimate with someone other than my partner.</description><baseMoodEffect>-6</baseMoodEffect></li></stages></ThoughtDef>
+  <ThoughtDef><defName>HW_BullRemorse</defName><thoughtClass>Thought_Memory</thoughtClass><durationDays>2</durationDays><stackLimit>1</stackLimit><stages><li><label>Interfered with a relationship</label><description>My actions could hurt someone else's relationship.</description><baseMoodEffect>-4</baseMoodEffect></li></stages></ThoughtDef>
+  <ThoughtDef><defName>HW_BullPride</defName><thoughtClass>Thought_Memory</thoughtClass><durationDays>2</durationDays><stackLimit>1</stackLimit><stages><li><label>Confident bull</label><description>I enjoyed an unconventional encounter.</description><baseMoodEffect>8</baseMoodEffect></li></stages></ThoughtDef>
+  <ThoughtDef><defName>HW_CuckoldUpset</defName><thoughtClass>Thought_Memory</thoughtClass><durationDays>2</durationDays><stackLimit>1</stackLimit><stages><li><label>Disturbed by infidelity</label><description>Seeing my partner with someone else was upsetting.</description><baseMoodEffect>-12</baseMoodEffect></li></stages></ThoughtDef>
+  <ThoughtDef><defName>HW_CuckoldPleasure</defName><thoughtClass>Thought_Memory</thoughtClass><durationDays>2</durationDays><stackLimit>1</stackLimit><stages><li><label>Enjoyed watching</label><description>I was pleased rather than hurt by what I witnessed.</description><baseMoodEffect>12</baseMoodEffect></li></stages></ThoughtDef>
+</Defs>

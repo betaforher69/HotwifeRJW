@@ -3,7 +3,7 @@
   <RJWQuirks.QuirkDef>
     <defName>Bull</defName>
     <label>Bull</label>
-    <description>{pawn} can cheat on their lovers without causing jealousy or any other infidelity reactions in them.</description>
+    <description>{pawn} feels pride rather than remorse after intimate encounters with an already committed partner.</description>
     <ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
     <requires Class="RJWQuirks.Requirement.LogicalNot">
       <requirement Class="RJWQuirks.Requirement.IsAnimal" />

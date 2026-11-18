@@ -6,12 +6,12 @@
   <ThoughtDef>
     <defName>HW_CaughtCheatingMood</defName>
     <thoughtClass>Thought_Memory</thoughtClass>
-    <durationDays>20</durationDays>
-    <stackLimit>2</stackLimit>
+    <durationDays>3</durationDays>
+    <stackLimit>1</stackLimit>
     <stages><li>
       <label>thrill of being caught</label>
       <description>He caught me on another man's cock, and I came louder. I know he'll forgive me</description>
-      <baseMoodEffect>60</baseMoodEffect>
+      <baseMoodEffect>8</baseMoodEffect>
     </li></stages>
   </ThoughtDef>
   <ThoughtDef>

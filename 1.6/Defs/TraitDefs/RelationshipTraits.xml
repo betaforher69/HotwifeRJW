@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TraitDef><defName>HW_Awakened</defName><degreeDatas><li><label>awakened</label><description>Open to intimacy beyond conventional relationships, without deliberately seeking affairs.</description></li></degreeDatas><commonality>0</commonality><conflictingTraits><li>HW_Hotwife</li></conflictingTraits></TraitDef>
+  <TraitDef><defName>HW_Hotwife</defName><degreeDatas><li><label>hotwife</label><description>Actively seeks freedom in intimate relationships, even while committed.</description></li></degreeDatas><commonality>0</commonality><conflictingTraits><li>HW_Awakened</li></conflictingTraits></TraitDef>
+  <TraitDef><defName>HW_Bull</defName><degreeDatas><li><label>bull</label><description>Comfortable initiating intimacy with partners already in a relationship.</description></li></degreeDatas><commonality>0</commonality></TraitDef>
+</Defs>
